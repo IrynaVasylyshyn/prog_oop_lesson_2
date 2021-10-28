@@ -45,9 +45,9 @@ public class Dog extends Animal{
     public String toString() {
         return "Dog{" +
                     "name='"    + name + '\'' +
-                    "ration='"  + super.getRation() + '\'' +
-                    "color='"   + super.getColor()  + '\'' +
-                    "weight='"  + super.getWeight() + '\'' +
+                    "ration='"  + this.getRation() + '\'' +
+                    "color='"   + this.getColor()  + '\'' +
+                    "weight='"  + this.getWeight() + '\'' +
                 '}';
     }
 }
